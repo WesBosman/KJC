@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE7878F51E8AFE58002733BB /* error.wav in Resources */ = {isa = PBXBuildFile; fileRef = DE7878F41E8AFE58002733BB /* error.wav */; };
+		DE7878F71E8B0A22002733BB /* VehicleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7878F61E8B0A22002733BB /* VehicleImage.swift */; };
+		DE7878F91E8B13C5002733BB /* HighScoreList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7878F81E8B13C5002733BB /* HighScoreList.swift */; };
+		DECBD7BA1E820BD800959D5E /* MemoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECBD7B91E820BD800959D5E /* MemoryCollectionViewCell.swift */; };
+		DECBD7D51E887A3500959D5E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DECBD7D41E887A3400959D5E /* AVFoundation.framework */; };
+		DECBD7DC1E887A8E00959D5E /* success.wav in Resources */ = {isa = PBXBuildFile; fileRef = DECBD7DB1E887A8E00959D5E /* success.wav */; };
+		DECBD7DE1E887AFE00959D5E /* pop.wav in Resources */ = {isa = PBXBuildFile; fileRef = DECBD7DD1E887AFE00959D5E /* pop.wav */; };
+		DEFD22081E7B4C3B00D93973 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFD22071E7B4C3B00D93973 /* AppDelegate.swift */; };
+		DEFD220A1E7B4C3B00D93973 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFD22091E7B4C3B00D93973 /* ViewController.swift */; };
+		DEFD220D1E7B4C3B00D93973 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEFD220B1E7B4C3B00D93973 /* Main.storyboard */; };
+		DEFD220F1E7B4C3B00D93973 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEFD220E1E7B4C3B00D93973 /* Assets.xcassets */; };
+		DEFD22121E7B4C3B00D93973 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEFD22101E7B4C3B00D93973 /* LaunchScreen.storyboard */; };
+		DEFD221A1E7EC45900D93973 /* MemoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFD22191E7EC45900D93973 /* MemoryViewController.swift */; };
+		DEFD221C1E7EC47000D93973 /* BalloonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFD221B1E7EC47000D93973 /* BalloonViewController.swift */; };
+		DEFD221E1E7EC47D00D93973 /* SortingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFD221D1E7EC47D00D93973 /* SortingViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE7878F41E8AFE58002733BB /* error.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = error.wav; sourceTree = "<group>"; };
+		DE7878F61E8B0A22002733BB /* VehicleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehicleImage.swift; sourceTree = "<group>"; };
+		DE7878F81E8B13C5002733BB /* HighScoreList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighScoreList.swift; sourceTree = "<group>"; };
+		DECBD7B91E820BD800959D5E /* MemoryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		DECBD7D41E887A3400959D5E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DECBD7DB1E887A8E00959D5E /* success.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = success.wav; sourceTree = "<group>"; };
+		DECBD7DD1E887AFE00959D5E /* pop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pop.wav; sourceTree = "<group>"; };
+		DEFD22041E7B4C3B00D93973 /* Kids Joy Center.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kids Joy Center.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEFD22071E7B4C3B00D93973 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEFD22091E7B4C3B00D93973 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DEFD220C1E7B4C3B00D93973 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEFD220E1E7B4C3B00D93973 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEFD22111E7B4C3B00D93973 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEFD22131E7B4C3B00D93973 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEFD22191E7EC45900D93973 /* MemoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryViewController.swift; sourceTree = "<group>"; };
+		DEFD221B1E7EC47000D93973 /* BalloonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalloonViewController.swift; sourceTree = "<group>"; };
+		DEFD221D1E7EC47D00D93973 /* SortingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortingViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEFD22011E7B4C3B00D93973 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DECBD7D51E887A3500959D5E /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DECBD7D31E887A3400959D5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DECBD7D41E887A3400959D5E /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DECBD7D61E887A4600959D5E /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				DE7878F41E8AFE58002733BB /* error.wav */,
+				DECBD7DD1E887AFE00959D5E /* pop.wav */,
+				DECBD7DB1E887A8E00959D5E /* success.wav */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		DEFD21FB1E7B4C3B00D93973 = {
+			isa = PBXGroup;
+			children = (
+				DEFD22061E7B4C3B00D93973 /* Kids Joy Center */,
+				DEFD22051E7B4C3B00D93973 /* Products */,
+				DECBD7D31E887A3400959D5E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DEFD22051E7B4C3B00D93973 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEFD22041E7B4C3B00D93973 /* Kids Joy Center.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEFD22061E7B4C3B00D93973 /* Kids Joy Center */ = {
+			isa = PBXGroup;
+			children = (
+				DEFD22071E7B4C3B00D93973 /* AppDelegate.swift */,
+				DEFD22091E7B4C3B00D93973 /* ViewController.swift */,
+				DEFD221B1E7EC47000D93973 /* BalloonViewController.swift */,
+				DEFD22191E7EC45900D93973 /* MemoryViewController.swift */,
+				DECBD7B91E820BD800959D5E /* MemoryCollectionViewCell.swift */,
+				DEFD221D1E7EC47D00D93973 /* SortingViewController.swift */,
+				DE7878F61E8B0A22002733BB /* VehicleImage.swift */,
+				DE7878F81E8B13C5002733BB /* HighScoreList.swift */,
+				DEFD220B1E7B4C3B00D93973 /* Main.storyboard */,
+				DECBD7D61E887A4600959D5E /* Sounds */,
+				DEFD220E1E7B4C3B00D93973 /* Assets.xcassets */,
+				DEFD22101E7B4C3B00D93973 /* LaunchScreen.storyboard */,
+				DEFD22131E7B4C3B00D93973 /* Info.plist */,
+			);
+			path = "Kids Joy Center";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEFD22031E7B4C3B00D93973 /* Kids Joy Center */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEFD22161E7B4C3B00D93973 /* Build configuration list for PBXNativeTarget "Kids Joy Center" */;
+			buildPhases = (
+				DEFD22001E7B4C3B00D93973 /* Sources */,
+				DEFD22011E7B4C3B00D93973 /* Frameworks */,
+				DEFD22021E7B4C3B00D93973 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kids Joy Center";
+			productName = "Kids Joy Center";
+			productReference = DEFD22041E7B4C3B00D93973 /* Kids Joy Center.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEFD21FC1E7B4C3B00D93973 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Wes Bosman";
+				TargetAttributes = {
+					DEFD22031E7B4C3B00D93973 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GV7EE9PX98;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DEFD21FF1E7B4C3B00D93973 /* Build configuration list for PBXProject "Kids Joy Center" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEFD21FB1E7B4C3B00D93973;
+			productRefGroup = DEFD22051E7B4C3B00D93973 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEFD22031E7B4C3B00D93973 /* Kids Joy Center */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEFD22021E7B4C3B00D93973 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DECBD7DC1E887A8E00959D5E /* success.wav in Resources */,
+				DEFD22121E7B4C3B00D93973 /* LaunchScreen.storyboard in Resources */,
+				DECBD7DE1E887AFE00959D5E /* pop.wav in Resources */,
+				DEFD220F1E7B4C3B00D93973 /* Assets.xcassets in Resources */,
+				DEFD220D1E7B4C3B00D93973 /* Main.storyboard in Resources */,
+				DE7878F51E8AFE58002733BB /* error.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEFD22001E7B4C3B00D93973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEFD221C1E7EC47000D93973 /* BalloonViewController.swift in Sources */,
+				DE7878F71E8B0A22002733BB /* VehicleImage.swift in Sources */,
+				DECBD7BA1E820BD800959D5E /* MemoryCollectionViewCell.swift in Sources */,
+				DEFD221A1E7EC45900D93973 /* MemoryViewController.swift in Sources */,
+				DEFD220A1E7B4C3B00D93973 /* ViewController.swift in Sources */,
+				DEFD221E1E7EC47D00D93973 /* SortingViewController.swift in Sources */,
+				DE7878F91E8B13C5002733BB /* HighScoreList.swift in Sources */,
+				DEFD22081E7B4C3B00D93973 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DEFD220B1E7B4C3B00D93973 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEFD220C1E7B4C3B00D93973 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEFD22101E7B4C3B00D93973 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEFD22111E7B4C3B00D93973 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEFD22141E7B4C3B00D93973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		DEFD22151E7B4C3B00D93973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEFD22171E7B4C3B00D93973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GV7EE9PX98;
+				INFOPLIST_FILE = "Kids Joy Center/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wesBosman.Kids-Joy-Center";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DEFD22181E7B4C3B00D93973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GV7EE9PX98;
+				INFOPLIST_FILE = "Kids Joy Center/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wesBosman.Kids-Joy-Center";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEFD21FF1E7B4C3B00D93973 /* Build configuration list for PBXProject "Kids Joy Center" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEFD22141E7B4C3B00D93973 /* Debug */,
+				DEFD22151E7B4C3B00D93973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEFD22161E7B4C3B00D93973 /* Build configuration list for PBXNativeTarget "Kids Joy Center" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEFD22171E7B4C3B00D93973 /* Debug */,
+				DEFD22181E7B4C3B00D93973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEFD21FC1E7B4C3B00D93973 /* Project object */;
+}
